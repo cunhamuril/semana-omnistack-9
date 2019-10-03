@@ -35,3 +35,24 @@ store, update e destroy // criar, atualizar e excluir
 // Para upload de imagens, a requisição não poderá ser passada como formato JSON
 // para isto, o formato escolhido é Multipart
 yarn add multer // dependência que lida com requisições multipart, para upload de arquivos
+
+
+
+
+--------------------------------------------------------------------- FRONTEND -------------------------------------------------------------------------
+
+yarn create react-app frontend // criar projeto
+
+
+yarn add axios // adicionar dependência axios
+
+// para poder fazer a utilização do backend. Deverá ser instalada uma dependência chamada CORS
+// no projeto backend realizar o seguinte comando:
+yarn add cors
+// deverá ser feita algumas inserções do cors no arquivo server.js do backend
+
+yarn add react-router-dom
+
+// novamente deverá ser feita outra alteração no backend. Dessa vez para carregar as imagens
+// inserções no arquivo Spot.js do backend
+// inserções no arquivo server.js do backend
