@@ -56,3 +56,24 @@ yarn add react-router-dom
 // novamente deverá ser feita outra alteração no backend. Dessa vez para carregar as imagens
 // inserções no arquivo Spot.js do backend
 // inserções no arquivo server.js do backend
+
+
+
+
+
+------------------------------------------------------------------------ MOBILE -----------------------------------------------------------------------------
+
+// utilizaremos uma ferramenta chamada Expo para o deselvolvimento
+
+npm install -g expo-cli // instalar expo client de forma global
+
+// baixar app na play store chamado Expo
+
+expo init mobile // iniciar projeto com nome mobile
+
+yarn start
+
+yarn add react-navigation
+expo install react-native-gesture-handler react-native-reanimated
+
+yarn add axios
