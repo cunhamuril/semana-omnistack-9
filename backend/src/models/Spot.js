@@ -19,7 +19,7 @@ const SpotSchema = new mongoose.Schema({
 // Função para carregamento de imagem
 SpotSchema.virtual('thumbnail_url').get(function () {
   // esta função não poderá ser escrita no formato de Arroy Function
-  return `http://localhost:3333/files/${this.thumbnail}`
+  return `http://192.168.0.102:3333/files/${this.thumbnail}`
 })
 
 module.exports = mongoose.model('Spot', SpotSchema)

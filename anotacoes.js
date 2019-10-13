@@ -37,6 +37,9 @@ store, update e destroy // criar, atualizar e excluir
 yarn add multer // dependência que lida com requisições multipart, para upload de arquivos
 
 
+=========== FUNCINALIDADES AVANÇADAS ============
+yarn add socket.io // dependencia para o RealTime
+
 
 
 --------------------------------------------------------------------- FRONTEND -------------------------------------------------------------------------
@@ -57,7 +60,8 @@ yarn add react-router-dom
 // inserções no arquivo Spot.js do backend
 // inserções no arquivo server.js do backend
 
-
+=========== FUNCINALIDADES AVANÇADAS ============
+yarn add socket.io-client // dependencia do socket.io para frontend
 
 
 
@@ -77,3 +81,6 @@ yarn add react-navigation
 expo install react-native-gesture-handler react-native-reanimated
 
 yarn add axios
+
+=========== FUNCINALIDADES AVANÇADAS ============
+yarn add socket.io-client // dependencia do socket.io para mobile
